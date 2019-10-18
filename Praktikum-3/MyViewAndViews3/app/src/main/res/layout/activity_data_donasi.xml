@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DataDonasiActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DONASI"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/vertical_layout"
+        android:textStyle="bold"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/horizontal_layout"
+        android:layout_marginLeft="@dimen/horizontal_layout"
+        android:layout_marginTop="@dimen/vertical_layout"
+        android:layout_marginBottom="@dimen/vertical_layout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_layout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/horizontal_layout"
+                android:text="@string/nama"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv_nama_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nama"
+                android:textColor="@color/black"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_layout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/horizontal_layout"
+                android:text="@string/email_user"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv_email_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_user"
+                android:textColor="@color/black"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_layout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/horizontal_layout"
+                android:text="@string/total_donasi_user"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv_donasi_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/total_donasi_user"
+                android:textColor="@color/black"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_layout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/horizontal_layout"
+                android:text="@string/catatan_user"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv_catatan_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/catatan_user"
+                android:textColor="@color/black"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_kirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kirim"
+        android:layout_marginRight="@dimen/horizontal_layout"
+        android:layout_marginLeft="@dimen/horizontal_layout"
+        android:layout_marginBottom="@dimen/vertical_layout"/>
+
+</LinearLayout>

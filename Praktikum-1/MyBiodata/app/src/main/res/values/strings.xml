@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyBiodata</string>
+    <string name="my_biodata">My Biodata</string>
+    <string name="nama">Nama</string>
+    <string name="nim">NIM</string>
+    <string name="prodi">Prodi</string>
+    <string name="cita_cita">Cita - cita</string>
+    <string name="mycitacita">: Ustad</string>
+    <string name="myprodi">: S1 Software Engineering</string>
+    <string name="mynim">: 17104032</string>
+    <string name="myname">: Rizki Pambudi</string>
+</resources>
