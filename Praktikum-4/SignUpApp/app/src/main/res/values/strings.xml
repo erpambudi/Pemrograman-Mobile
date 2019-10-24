@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SignUpApp</string>
+
+    <string name="daftar">Sign Up</string>
+    <string name="user">Username</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="content_text">Hallo, apakah hari mu menyenangkan?\nJangan lupa bahagia, jaga selalu kesehatan kamu ya.</string>
+    <string name="sosmed">Sign Up With Social Media</string>
+
+</resources>

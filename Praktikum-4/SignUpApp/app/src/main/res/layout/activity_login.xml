@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="50dp"
+                android:background="@color/colorPrimaryDark">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Selamat datang di aplikasi saya"
+                    android:textSize="27sp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_text"
+                    android:textSize="17sp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="25dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="40dp">
+
+                    <Button
+                        android:id="@+id/btn_selengkapnya"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="#FFF"
+                        android:text="Selengkapnya"
+                        android:background="@drawable/buttonstyle1"/>
+
+                    <Button
+                        android:id="@+id/btn_join"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textColor="#FFF"
+                        android:text="JOIN NOW"
+                        android:background="@drawable/buttonstyle1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/vertical_layout"
+            android:gravity="center">
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/user"
+                android:layout_marginBottom="@dimen/vertical_layout"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:drawablePadding="15dp"
+                android:background="@drawable/edittextstyle"/>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/pass"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="15dp"
+                android:background="@drawable/edittextstyle"/>
+
+            <Button
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_layout"
+                android:layout_marginBottom="@dimen/vertical_layout"
+                android:text="Login"
+                android:textColor="#FFF"
+                android:drawableRight="@drawable/ic_send_black_24dp"
+                android:background="@drawable/buttonstyle1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
