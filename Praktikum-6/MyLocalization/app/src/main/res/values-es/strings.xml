@@ -1,0 +1,29 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MyLocalization</string>
+
+    <string name="football">Equipo nacional de Indonesia gana contra equipo nacional de Tailandia</string>
+    <string name="goal">Gol de Indonesia anotado por %1$s y %2$s, entonces el puntaje final es %3$d - %4$d por la victoria de Indonesia</string>
+
+    <plurals name="numberOfSongAvailable">
+        <item quantity="one">%d canción fundar.</item>
+        <item quantity="other">%d canciónes fundar.</item>
+    </plurals>
+
+    <string name="app_homeurl">
+        visita nosotros en <xliff:g id="application_homepage">https://www.polines.ac.id</xliff:g>
+    </string>
+
+    <string name="change_language_settings">Cambiar configuración de idioma</string>
+    <string name="tab_text1">Casa</string>
+    <string name="tab_text2">Perfil</string>
+
+    <string name="name">Nombre :</string>
+    <string name="address">La direccion :</string>
+    <string name="hobby">Hobby :</string>
+    <string name="quote">Cita :</string>
+    <string name="detail_name">Rizki Pambudi</string>
+    <string name="detail_address">Karangjati, Sampang, Cilacap.</string>
+    <string name="detail_hobby">Dormir</string>
+    <string name="detail_quote">Pelear no traicionará los resultados.</string>
+
+</resources>
